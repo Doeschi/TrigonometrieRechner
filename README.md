@@ -1,4 +1,4 @@
-# TrigonometrieRechner
+# Trigonometry Calculator
 Calculating and drawing sinus and cosinus in the unity circle. Created with [p5.js](https://github.com/processing/p5.js)
 
 The radiobutton "Sinus" will show the triangle with the same sinus value, the "Cosinus" button will show the triangle with the same cosinus value.
