@@ -11,10 +11,9 @@
 <body>
 <div id="container">
     <div id="sketchHolder" style="margin: 15px;">
-        <script src="script.js"></script>
     </div>
     <div>
-        <input id="angleSlider" type="range" min="0" value="0" oninput="handleSlider()" style="margin: 0 0 16px 0">
+        <input id="angleSlider" type="range" min="0" value="0" oninput="handleSlider()">
         <label for="angleSlider"></label>
 
         <br>
@@ -30,13 +29,14 @@
 
         <br>
 
-        <input id="angleInput_1" oninput="handleInput1()" style="margin: 16px 0 0 0">
-        <input id="angleInput_2" oninput="handleInput2()" style="margin: 16px 0 0 0">
+        <input id="angleInput_1" oninput="handleInput1()">
+        <input id="angleInput_2" oninput="handleInput2()"">
 
         <p id="sinusOutput"></p>
         <p id="cosinusOutput"></p>
         <p id="tangensOutput"></p>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

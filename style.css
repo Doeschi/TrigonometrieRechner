@@ -10,5 +10,10 @@ canvas {
 #container {
     width: 1000px;
     margin: 0 auto;
-
+}
+#angleSlider {
+  margin: 0 0 16px 0;
+}
+#angleInput_1, #angleInput_2 {
+  margin: 16px 0 0 0;
 }
