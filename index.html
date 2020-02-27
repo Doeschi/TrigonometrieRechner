@@ -11,32 +11,25 @@
 <body>
 <div id="container">
     <div id="sketchHolder" style="margin: 15px;">
-        <script src="script.js"></script>
     </div>
     <div>
-        <input id="angleSlider" type="range" min="0" value="0" oninput="handleSlider()" style="margin: 0 0 16px 0">
+        <input id="angleSlider" type="range" min="0" value="0" oninput="handleSlider()">
         <label for="angleSlider"></label>
-
         <br>
-
         <input id="noneButton" type="radio" value="1" name="radiogroup" oninput="handleSlider()" checked>
         <label for="noneButton">None</label>
-
         <input id="sinusButton" type="radio" value="2" name="radiogroup" oninput="handleSlider()">
         <label for="sinusButton">Sinus</label>
-
         <input id="cosinusButton" type="radio" value="3" name="radiogroup" oninput="handleSlider()">
         <label for="cosinusButton">Cosinus</label>
-
         <br>
-
-        <input id="angleInput_1" oninput="handleInput1()" style="margin: 16px 0 0 0">
-        <input id="angleInput_2" oninput="handleInput2()" style="margin: 16px 0 0 0">
-
+        <input id="angleInput_1" oninput="handleInput1()">
+        <input id="angleInput_2" oninput="handleInput2()"">
         <p id="sinusOutput"></p>
         <p id="cosinusOutput"></p>
         <p id="tangensOutput"></p>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
