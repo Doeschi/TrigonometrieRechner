@@ -1,3 +1,4 @@
+"use strict"
 const RADIUS = 200;
 const ANGLE_DECIMALS = 4;
 const TRIGEOMETRY_FUNCTIONS_DECIMALS = 10;
